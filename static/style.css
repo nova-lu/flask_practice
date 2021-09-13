@@ -19,6 +19,28 @@ footer {
     width: 40px;
 }
 
+
+/* 用户列表 */
+.user-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 5px;
+    box-shadow: 0 0px 3px 0 rgba(9, 2, 70, 0.16), 0 0px 5px 0 rgba(9, 2, 70, 0.16);
+}
+
+.user-list li {
+    padding: 12px 24px;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-list li:last-child {
+    border-bottom:none;
+}
+
+.user-list li:hover {
+    background-color: #f8f9fa;
+}
+
 /* 电影列表 */
 .movie-list {
     list-style-type: none;
